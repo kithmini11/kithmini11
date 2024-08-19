@@ -1,7 +1,7 @@
 <div style="background-color: #0d1117; color: white; padding: 20px; border-radius: 10px;">
 
 <h1 align="center">Hi 👋, I'm Kithmini Mayodya</h1>
-<h3 align="center">A passionate software developer from Sri Lanka</h3>
+<h3 align="center">A passionate software developer </h3>
 
 👨‍💻 I’m an undergraduate of **University Of Colombo School of Computing**
 
