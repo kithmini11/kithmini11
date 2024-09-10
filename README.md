@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Kithmini Mayodya</h1>
 <h3 align="center">A passionate software developer</h3>
 
-👨‍💻 I’m an undergraduate of **University Of Colombo School of Computing**
+👨‍💻 I’m an undergraduate of University Of Colombo School of Computing
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
