@@ -13,7 +13,7 @@
   </p>
 
   <h3 align="left" style="margin-top: 20px;">Languages and Tools:</h3>
-  <p align="left" style="margin-bottom: 20px;"> 
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
     <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/> 
     </a> 
@@ -44,23 +44,17 @@
     <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/> 
     </a> 
-  </p>
+  </div>
 
   <h3 align="left" style="margin-top: 20px;">GitHub Stats:</h3>
-  <p align="left" style="margin-bottom: 20px;">
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 20px;">
     <img src="https://github-readme-stats.vercel.app/api?username=kithmini11&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats"/>
-  </p>
-  
-  <p align="left" style="margin-bottom: 20px;">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=kithmini11&theme=dark&hide_border=false&count_private=true" alt="GitHub Streak"/>
-  </p>
-  
-  <p align="left" style="margin-bottom: 20px;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kithmini11&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
-  </p>
+  </div>
 
   <h3 align="left" style="margin-top: 20px;">🔝 Top Contributed Repo:</h3>
-  <p align="left" style="margin-bottom: 20px;">
+  <p align="center" style="margin-bottom: 20px;">
     <img src="https://github-contributor-stats.vercel.app/api?username=kithmini11&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo"/>
   </p>
 
