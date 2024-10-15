@@ -3,17 +3,17 @@
   <h1 align="center">Hi 👋, I'm Kithmini Mayodya</h1>
   <h3 align="center">A passionate software developer</h3>
 
-  <p align="center">👨‍💻 I’m an undergraduate of University Of Colombo School of Computing</p>
+  <p align="center" style="margin-bottom: 20px;">👨‍💻 I’m an undergraduate of University Of Colombo School of Computing</p>
 
-  <h3 align="left">Connect with me:</h3>
-  <p align="left">
+  <h3 align="left" style="margin-top: 20px;">Connect with me:</h3>
+  <p align="left" style="margin-bottom: 20px;">
     <a href="https://www.linkedin.com/in/kithmini-herath-584250286" target="_blank">
       <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kithmini herath" height="30" width="40" />
     </a>
   </p>
 
-  <h3 align="left">Languages and Tools:</h3>
-  <p align="left"> 
+  <h3 align="left" style="margin-top: 20px;">Languages and Tools:</h3>
+  <p align="left" style="margin-bottom: 20px;"> 
     <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/> 
     </a> 
@@ -46,21 +46,21 @@
     </a> 
   </p>
 
-  <h3 align="left">GitHub Stats:</h3>
-  <p align="left">
+  <h3 align="left" style="margin-top: 20px;">GitHub Stats:</h3>
+  <p align="left" style="margin-bottom: 20px;">
     <img src="https://github-readme-stats.vercel.app/api?username=kithmini11&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats"/>
   </p>
   
-  <p align="left">
+  <p align="left" style="margin-bottom: 20px;">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=kithmini11&theme=dark&hide_border=false&count_private=true" alt="GitHub Streak"/>
   </p>
   
-  <p align="left">
+  <p align="left" style="margin-bottom: 20px;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kithmini11&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
   </p>
 
-  <h3 align="left">🔝 Top Contributed Repo:</h3>
-  <p align="left">
+  <h3 align="left" style="margin-top: 20px;">🔝 Top Contributed Repo:</h3>
+  <p align="left" style="margin-bottom: 20px;">
     <img src="https://github-contributor-stats.vercel.app/api?username=kithmini11&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo"/>
   </p>
 
