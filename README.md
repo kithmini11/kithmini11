@@ -50,20 +50,19 @@
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px; position: relative;">
     <img src="https://github-readme-stats.vercel.app/api?username=kithmini11&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats" style="max-width: 48%;"/>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=kithmini11&theme=dark&hide_border=false&count_private=true" alt="GitHub Streak" style="max-width: 48%;"/>
-    <div style="position: absolute; left: 0; top: 50%; transform: translateY(-50%);">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kithmini11&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" style="max-width: 100px;"/>
-    </div>
-  </div>
+   </div>
 
   <h3 align="left" style="margin-top: 20px;">🔝 Top Contributed Repo:</h3>
   <p align="center" style="margin-bottom: 20px;">
     <img src="https://github-contributor-stats.vercel.app/api?username=kithmini11&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo"/>
   </p>
 
-  <div align="center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px; position: relative;">>
     <a href="https://visitcount.itsvg.in" target="_blank">
       <img src="https://visitcount.itsvg.in/api?id=kithmini11&icon=0&color=0" alt="Visitor Count"/>
     </a>
-  </div>
+     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kithmini11&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" style="max-width: 100px;"/>
+    </div>
+  
 
 </div>
