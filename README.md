@@ -50,7 +50,9 @@
   <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 20px;">
     <img src="https://github-readme-stats.vercel.app/api?username=kithmini11&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats"/>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=kithmini11&theme=dark&hide_border=false&count_private=true" alt="GitHub Streak"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kithmini11&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
+</div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin-bottom: 20px; margin-top: 20px;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kithmini11&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
   </div>
 
   <h3 align="left" style="margin-top: 20px;">🔝 Top Contributed Repo:</h3>
