@@ -1,190 +1,73 @@
-import React from 'react';
-import { GithubIcon, LinkedinIcon, Code, Activity, Terminal } from 'lucide-react';
+<div style="background-color: #0d1117; color: white; padding: 20px; border-radius: 10px; max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
 
-const GithubProfile = () => {
-  const techStack = {
-    "Languages": [
-      {
-        name: "C",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-        proficiency: 85,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://www.cprogramming.com/"
-      },
-      {
-        name: "Java",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        proficiency: 90,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://www.java.com"
-      },
-      {
-        name: "JavaScript",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-        proficiency: 80,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      },
-      {
-        name: "PHP",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-        proficiency: 75,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://www.php.net"
-      }
-    ],
-    "Frontend": [
-      {
-        name: "HTML5",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-        proficiency: 95,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://www.w3.org/html/"
-      },
-      {
-        name: "CSS3",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-        proficiency: 85,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://www.w3schools.com/css/"
-      },
-      {
-        name: "React",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        proficiency: 80,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://reactjs.org/"
-      }
-    ],
-    "Tools & Technologies": [
-      {
-        name: "MySQL",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-        proficiency: 85,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://www.mysql.com/"
-      },
-      {
-        name: "Git",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-        proficiency: 80,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://git-scm.com/"
-      },
-      {
-        name: "Linux",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
-        proficiency: 75,
-        backgroundColor: "rgba(40, 40, 40, 0.8)",
-        link: "https://www.linux.org/"
-      }
-    ]
-  };
+  <h1 align="center">Hi 👋, I'm Kithmini Mayodya</h1>
+  <h3 align="center">A passionate software developer</h3>
 
-  const TechCard = ({ tech }) => (
-    <a 
-      href={tech.link}
-      target="_blank"
-      rel="noreferrer"
-      className="group relative flex flex-col items-center p-4 bg-black rounded-lg border border-zinc-800 hover:border-zinc-600 transition-all duration-300 hover:scale-105"
-    >
-      <img 
-        src={`/api/placeholder/48/48`} 
-        alt={tech.name}
-        className="w-12 h-12 mb-2 transition-transform duration-300 group-hover:scale-110"
-      />
-      <span className="text-sm font-medium text-zinc-300 group-hover:text-white">
-        {tech.name}
-      </span>
-      <div className="mt-2 w-full h-1 bg-zinc-800 rounded-full overflow-hidden">
-        <div 
-          className="h-full bg-gradient-to-r from-zinc-600 to-zinc-400 transition-all duration-500 group-hover:from-zinc-400 group-hover:to-white"
-          style={{ width: `${tech.proficiency}%` }}
-        />
-      </div>
-      <span className="absolute top-1 right-1 text-xs text-zinc-500 group-hover:text-zinc-300">
-        {tech.proficiency}%
-      </span>
+  <p align="center" style="margin-bottom: 20px;">👨‍💻 I’m an undergraduate of University Of Colombo School of Computing</p>
+
+  <h3 align="left" style="margin-top: 20px;">Connect with me:</h3>
+  <p align="left" style="margin-bottom: 20px;">
+    <a href="https://www.linkedin.com/in/kithmini-herath-584250286" target="_blank">
+      <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kithmini herath" height="30" width="40" />
     </a>
-  );
+  </p>
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-zinc-900 to-black text-zinc-100 p-8">
-      <div className="max-w-4xl mx-auto space-y-12">
-        {/* Header */}
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-white via-zinc-400 to-white text-transparent bg-clip-text">
-            Hi 👋, I'm Kithmini Mayodya
-          </h1>
-          <h2 className="text-2xl text-zinc-400 hover:text-white transition-colors">
-            Software Developer
-          </h2>
-          <p className="text-zinc-500">
-            Undergraduate at University of Colombo School of Computing
-          </p>
-        </div>
+  <h3 align="left" style="margin-top: 20px;">Languages and Tools:</h3>
+  <p align="left" style="margin-bottom: 20px;"> 
+    <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/> 
+    </a> 
+    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/> 
+    </a> 
+    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/> 
+    </a> 
+    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/> 
+    </a> 
+    <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/> 
+    </a> 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/> 
+    </a> 
+    <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/> 
+    </a> 
+    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/> 
+    </a> 
+    <a href="https://www.php.net" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"/> 
+    </a> 
+    <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/> 
+    </a> 
+  </p>
 
-        {/* Connect */}
-        <div className="flex justify-center gap-4">
-          <a href="https://www.linkedin.com/in/kithmini-herath-584250286" 
-             className="p-3 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-all duration-300 hover:scale-110 border border-zinc-800 hover:border-zinc-700">
-            <LinkedinIcon className="w-6 h-6 text-zinc-400 hover:text-white" />
-          </a>
-          <a href="https://github.com/kithmini11" 
-             className="p-3 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-all duration-300 hover:scale-110 border border-zinc-800 hover:border-zinc-700">
-            <GithubIcon className="w-6 h-6 text-zinc-400 hover:text-white" />
-          </a>
-        </div>
+  <h3 align="left" style="margin-top: 20px;">GitHub Stats:</h3>
+  <p align="left" style="margin-bottom: 20px;">
+    <img src="https://github-readme-stats.vercel.app/api?username=kithmini11&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats"/>
+  </p>
+  
+  <p align="left" style="margin-bottom: 20px;">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=kithmini11&theme=dark&hide_border=false&count_private=true" alt="GitHub Streak"/>
+  </p>
+  
+  <p align="left" style="margin-bottom: 20px;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kithmini11&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
+  </p>
 
-        {/* Tech Stack */}
-        {Object.entries(techStack).map(([category, technologies]) => (
-          <div key={category} className="space-y-4">
-            <h3 className="text-xl font-semibold flex items-center gap-2 text-zinc-200">
-              <Code className="w-5 h-5 text-zinc-400" />
-              {category}
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {technologies.map(tech => (
-                <TechCard key={tech.name} tech={tech} />
-              ))}
-            </div>
-          </div>
-        ))}
+  <h3 align="left" style="margin-top: 20px;">🔝 Top Contributed Repo:</h3>
+  <p align="left" style="margin-bottom: 20px;">
+    <img src="https://github-contributor-stats.vercel.app/api?username=kithmini11&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo"/>
+  </p>
 
-        {/* GitHub Stats */}
-        <div className="space-y-4">
-          <h3 className="text-xl font-semibold flex items-center gap-2 text-zinc-200">
-            <Activity className="w-5 h-5 text-zinc-400" />
-            GitHub Statistics
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="p-4 bg-black border border-zinc-800 rounded-lg hover:border-zinc-600 transition-all duration-300">
-              <div className="text-sm text-zinc-400">Total Commits</div>
-              <div className="text-lg font-semibold">500+</div>
-            </div>
-            <div className="p-4 bg-black border border-zinc-800 rounded-lg hover:border-zinc-600 transition-all duration-300">
-              <div className="text-sm text-zinc-400">Repositories</div>
-              <div className="text-lg font-semibold">15+</div>
-            </div>
-            <div className="p-4 bg-black border border-zinc-800 rounded-lg hover:border-zinc-600 transition-all duration-300">
-              <div className="text-sm text-zinc-400">Contributions</div>
-              <div className="text-lg font-semibold">1000+</div>
-            </div>
-          </div>
-        </div>
+  <div align="center">
+    <a href="https://visitcount.itsvg.in" target="_blank">
+      <img src="https://visitcount.itsvg.in/api?id=kithmini11&icon=0&color=0" alt="Visitor Count"/>
+    </a>
+  </div>
 
-        {/* Footer */}
-        <div className="text-center text-sm text-zinc-400">
-          <p>Thanks for visiting my profile! 👋</p>
-          <div className="mt-2">
-            <span className="bg-black px-4 py-2 rounded-full inline-block border border-zinc-800 hover:border-zinc-700 transition-all duration-300">
-              Profile Views: 1.5k+
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default GithubProfile;
+</div>
