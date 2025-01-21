@@ -14,8 +14,6 @@
 
 ## 🌐 Connect With Me  
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/kithmini-herath-584250286)  
-[![GitHub](https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kithmini11)
-
 ---
 
 ## 🛠️ Languages & Tools  
